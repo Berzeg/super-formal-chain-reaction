@@ -6,7 +6,6 @@ A class that aggregates a group of callbacks that can be invoked with a single f
 
 - [Installation](#installation)
 - [Basic Usage](#basic-usage)
-- [Motivation](#motivation)
 - [The `ChainReaction` class](#the-chainreaction-class)
   - [`ChainReaction.fromList()`](#chainreaction-fromlist)
   - [`ChainReaction.resolve()`](#chainreaction-resolve)
