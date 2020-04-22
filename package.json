@@ -1,0 +1,37 @@
+{
+  "name": "@super-formal/chain-reaction",
+  "version": "0.1.0",
+  "description": "A class that aggregates a group of callbacks that can be invoked with a single function call.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "rollup src/chainReaction.js --file index.js --format cjs",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berzeg/super-formal-chain-reaction.git"
+  },
+  "keywords": [
+    "forms",
+    "super-formal",
+    "callback",
+    "aggregation"
+  ],
+  "author": "Hashem (Ash) Berzeg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Berzeg/super-formal-chain-reaction/issues"
+  },
+  "homepage": "https://github.com/Berzeg/super-formal-chain-reaction#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0",
+    "rollup": "^2.7.1",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
